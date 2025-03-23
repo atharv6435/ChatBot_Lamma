@@ -35,10 +35,10 @@ def model_response(text: str, model_name="llama-3.3-70b-versatile"):
 
 # Add title to streamlit app
 st.title("LLama 3.3 Model")
-st.subheader("by Utkarsh Gaikwad")
+st.subheader("by Atharv")
 
 # Provide text area input for user
-user_input = st.text_area("Ask any question :")
+user_input = st.text_area("Ask any uestion :")
 
 # Create a submit button
 submit = st.button("Generate", type="primary")
